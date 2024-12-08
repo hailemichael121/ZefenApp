@@ -30,10 +30,7 @@ flutter_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
-fonts:
-  - family: Fancy
-    fonts:
-      - asset: assets/fonts/Fancy_Font.ttf
+
 flutter:
   assets:
     - assets/z_icon.png
