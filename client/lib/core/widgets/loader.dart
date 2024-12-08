@@ -5,10 +5,10 @@ class ZefenFancyLoader extends StatefulWidget {
   const ZefenFancyLoader({super.key});
 
   @override
-  _ZefenFancyLoaderState createState() => _ZefenFancyLoaderState();
+  ZefenFancyLoaderState createState() => ZefenFancyLoaderState();
 }
 
-class _ZefenFancyLoaderState extends State<ZefenFancyLoader>
+class ZefenFancyLoaderState extends State<ZefenFancyLoader>
     with TickerProviderStateMixin {
   late AnimationController _rippleController;
   late AnimationController _bubblesController;
