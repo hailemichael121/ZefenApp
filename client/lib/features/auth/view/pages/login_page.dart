@@ -37,6 +37,11 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Image.asset(
+                  'assets/z_icon.png', // Path to your PNG file
+                  height: 120,
+                  width: 120,
+                ),
                 const Text(
                   "Sign In.",
                   style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
